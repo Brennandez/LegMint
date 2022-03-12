@@ -506,11 +506,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>Cynova Genesis</h2>
+                            <h2>Cynova Legacy</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="ngif.gif"
+                                src="legacy.gif"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -581,8 +581,8 @@ const Home = (props: HomeProps) => {
                     <DesContainer>
                         <Des elevation={2}>
                         <LogoAligner><img src="nlogo.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
-                            <p>This is a thank you guys for all of your hard work this past few weeks.</p>
-                            <p>WELCOME TO THE CYNOVERSE
+                            <p>Welcome to the Cynoverse. We are a cummunity focused NFT project on the Solana blockchain..</p>
+                            <p>Only wallets with a Novapass/whitelist token will be able to mint. If you don't have this, your mint will fail.
                                 </p>
                             <p>NOVA NOVA</p>
                         </Des>
